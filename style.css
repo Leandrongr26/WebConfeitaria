@@ -319,8 +319,8 @@ header {
 .conhecimentos-img-wrapper {
   grid-column: 7 / 11;
   grid-row: 2 / 6;
-  width: 80%;
-  height: 80%;
+  width: 90%;
+  height: 90%;
 }
 
 .conhecimentos-img-wrapper img {
