@@ -204,21 +204,21 @@
           <h1>Faça um orçamento</h1>
           <form>
             <label for="qtde">Qtde de Doces</label>
-            <input type="number" min="0" name="qtde" id="qtde">
-            <label for="js">Preciso de talheres?</label>
+            <input type="number" min="1" name="qtde" id="qtde">
+            <label for="tl">Preciso de talheres</label>
             <input type="checkbox" name="tl" id="tl">
-            <label>Layout</label>
-            <div class="group-layout">
+            <label>Decoração</label>
+            <div class="group-decor">
               <div>
-                <input type="radio" name="Decoração" id="layout-sim">
-                <label for="layout-sim">Preciso de uma decoração</label>
+                <input type="radio" name="decor" id="decor-sim">
+                <label for="decor-sim">Preciso de uma decoração</label>
               </div>
               <div>
-                <input type="radio" name="layout" id="layout-nao">
-                <label for="layout-nao">Já tenho uma decoração</label>
+                <input type="radio" name="decor" id="decor-nao">
+                <label for="decor-nao">Já tenho uma decoração</label>
               </div>
             </div>
-            <label for="prazo">Prazo de entrega</label>
+            <label for="prazo">Prazo para entrega</label>
             <input type="range" name="prazo" id="prazo" min="1" max="10">
             <label id="preco">R$ 0,00</label>
             <button class="btn btn-orcamento" type="submit">Enviar</button>
