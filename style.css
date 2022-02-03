@@ -319,8 +319,8 @@ header {
 .conhecimentos-img-wrapper {
   grid-column: 7 / 11;
   grid-row: 2 / 6;
-  width: 90%;
-  height: 90%;
+  width: 80%;
+  height: 80%;
 }
 
 .conhecimentos-img-wrapper img {
@@ -393,9 +393,9 @@ header {
 }
 
 .btn {
-  background: #6a3093;
-  background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
-  background: linear-gradient(to left, #a044ff, #6a3093);
+  background: #200122;
+  background: -webkit-linear-gradient(to right, #6f0000, #200122);
+  background: linear-gradient(to right, #6f0000, #200122);
   font-family: var(--font-action);
   color: #eee;
   border-radius: 0.5rem;
@@ -432,14 +432,14 @@ header {
 
 .contato-left {
   width: 35%;
-  background: linear-gradient(rgba(15, 15, 15, 0.6), rgba(22, 22, 22, 0.9)),
-    url(imagens/contato.jpg);
+  background: linear-gradient(rgba(11, 11, 11, 0.2), rgba(27, 27, 27, 0.9)),
+    url(img/contato.jpg);
   background-size: cover;
 }
 
 .contato-right {
   width: 65%;
-  background-color: #eee;
+  background-color: rgb(228, 225, 225);
   padding: 1rem 3rem 3rem 3rem;
 }
 
@@ -539,9 +539,9 @@ header {
   position: absolute;
   top: -2.5rem;
   left: 2rem;
-  background: #6a3093;
-  background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
-  background: linear-gradient(to left, #a044ff, #6a3093);
+  background: #200122;
+  background: -webkit-linear-gradient(to right, #6f0000, #200122);
+  background: linear-gradient(to right, #6f0000, #200122);
   padding: 0 3rem;
   color: #fff;
   font-family: var(--font-primary);
@@ -618,13 +618,13 @@ footer {
   bottom: 3rem;
   width: 3rem;
   height: 3rem;
-  background: #6a3093;
-  background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
-  background: linear-gradient(to left, #a044ff, #6a3093);
+  background: #200122;
+  background: -webkit-linear-gradient(to right, #6f0000, #200122);
+  background: linear-gradient(to right, #6f0000, #200122);
   display: flex;
   justify-content: center;
   align-items: center;
   color: #fff;
-  border-radius: .3rem;
+  border-radius: .9rem;
   box-shadow: 0 0.1rem 0.6rem #00000009;
 }
